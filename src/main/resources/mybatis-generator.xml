@@ -39,6 +39,6 @@
         </javaClientGenerator>
         <!--生成对应表及类名-->
         <!--生成表之前，注意检查该表是否已经在工程中存在。如果存在，不要再次生成！会覆盖原有文件！生成过的表要注释或者删除 -->
-        <!--<table tableName="user_t" domainObjectName="UserEntity" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>-->
+        <table tableName="user_t" domainObjectName="UserEntity" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     </context>
 </generatorConfiguration>

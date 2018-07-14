@@ -23,7 +23,7 @@ import java.util.Properties;
 
 
 @Configuration // @Configuration注解（该注解类似于spring的配置文件）
-@MapperScan(basePackages = "com.aim.lgd.dao")// @MapperScan注解，指定扫描的mapper接口所在的包
+@MapperScan(basePackages = "com.talentservice.talentservice.dao")// @MapperScan注解，指定扫描的mapper接口所在的包
 public class MybatisConfig implements EnvironmentAware {
     private static final Logger logger = LoggerFactory.getLogger(MybatisConfig.class);
 
